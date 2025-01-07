@@ -1,0 +1,9 @@
+{
+	"name": "azcapstonedf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a276894b-9bbd-437c-a9c8-4f130d853aa8",
+		"tenantId": "d80fc4f5-7ef9-483b-b84f-13625282d939"
+	}
+}
