@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "azcapstonedf"
+		},
+		"AzureDataLakeStorage_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage_properties_typeProperties_url": {
+			"value": "https://orbuscapstonestorage.dfs.core.windows.net/"
+		},
+		"LS_http_allfiles_properties_typeProperties_url": {
+			"value": "@{linkedService().BaseURL}"
+		}
+	}
+}
